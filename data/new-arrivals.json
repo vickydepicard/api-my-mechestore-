@@ -1,62 +1,254 @@
 [
-  {
-    "_id": "prod_1",
-    "name": "Mèche Brésilienne 18 pouces",
-    "image": "http://localhost:4000/images/lisse.png",
-        "images": [
-      "http://localhost:4000/images/lisse.png",
-      "http://localhost:4000/images/lisse.png",
-      "http://localhost:4000/images/lisse.png",
-      "http://localhost:4000/images/closure.png"
-    ],
-    "price": 42.5
+{
+  "_id": "prod_1",
+  "name": "Lot 3 Mèches Lisses Brésiliennes",
+  "slug": "lot-3-meches-lisses-bresiliennes",
+  "images": [
+    "http://localhost:4000/images/meche-lisse/lisse.png",
+    "http://localhost:4000/images/meche-lisse/lisse.png",
+    "http://localhost:4000/images/meche-lisse/image1.png",
+    "http://localhost:4000/images/meche-lisse/meches-naturelles-lot.png"
+  ],
+  "description": "Lot de 3 mèches naturelles brésiliennes lisses, soyeuses et résistantes, parfait pour un look élégant.",
+  "categorie": {
+    "principale": "Mèches & Extensions",
+    "sous_categories": [
+      {
+        "name": "Mèches lisses",
+        "slug": "meches-lisses",
+        "imageUrl": "http://localhost:4000/images/meche-lisse/bresilien.png"
+      },
+      {
+        "name": "Bundles",
+        "slug": "bundles",
+        "imageUrl": "http://localhost:4000/images/meche-lisse/bresilien.png"
+      }
+    ]
   },
-  {
-    "_id": "prod_2",
-    "name": "Closure 5x5 naturelle",
-    "image": "http://localhost:4000/images/closure.png",
-    "price": 2.99
-  },
-  {
-    "_id": "prod_3",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  },
+  "tags": ["remy hair", "brésilien", "cheveux naturels", "lisses"],
+  "options_de_couleur": ["#4B3621", "chocolat", "blond cendré", "ombré"],
+  "devise": "FCFA",
+  "variants": [
     {
-    "_id": "prod_4",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  },
+      "longueur": "10\"",
+      "couleur": "#B98A68",
+      "prix": 65000,
+      "ancien_prix": 85000,
+      "stock": 0,
+      "promo_active": true
+    },
     {
-    "_id": "prod_5",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  },
+      "longueur": "12\"",
+      "couleur": "#3B2E25",
+      "prix": 110000,
+      "ancien_prix": 130000,
+      "stock": 6,
+      "promo_active": true
+    },
     {
-    "_id": "prod_6",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  },
+      "longueur": "14\"",
+      "couleur": "#101820",
+      "prix": 110000,
+      "ancien_prix": 130000,
+      "stock": 6,
+      "promo_active": true
+    },
     {
-    "_id": "prod_7",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  },
+      "longueur": "16\"",
+      "couleur": "#ECEBE6",
+      "prix": 110000,
+      "ancien_prix": 130000,
+      "stock": 6,
+      "promo_active": false
+    },
     {
-    "_id": "prod_8",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  },
+      "longueur": "18\"",
+      "couleur": "#B1B1B1",
+      "prix": 110000,
+      "ancien_prix": 130000,
+      "stock": 6,
+      "promo_active": false
+    },
     {
-    "_id": "prod_9",
-    "name": "Perruque Lace Frontal 26 pouces",
-    "image": "http://localhost:4000/images/lace.png",
-    "price": 95
-  }
+      "longueur": "20\"",
+      "couleur": "#6D2C35",
+      "prix": 110000,
+      "ancien_prix": 130000,
+      "stock": 6,
+      "promo_active": false
+    },
+    {
+      "longueur": "26\"",
+      "couleur": "#4B3621",
+      "prix": 110000,
+      "ancien_prix": 130000,
+      "stock": 6,
+      "promo_active": false
+    },
+    {
+      "longueur": "30\"",
+      "couleur": "#E8A0B9",
+      "prix": 130000,
+      "ancien_prix": null,
+      "stock": 3,
+      "promo_active": false
+    }
+  ],
+  "promotion": {
+    "active": true,
+    "nom": "Offre spéciale été",
+    "description": "Profitez jusqu'à -20% sur nos mèches lisses brésiliennes.",
+    "date_debut": "2025-07-20T00:00:00.000Z",
+    "date_fin": "2025-08-10T23:59:59.000Z",
+    "couleur_badge": "#E91E63",
+    "badge_texte": "-20%",
+    "produits_concernes": ["prod_1"]
+  },
+  "details": [
+    "Cheveux 100% naturels Remy Hair 9A+",
+    "Peut être coloré, coiffé et lissé"
+  ],
+  "points_forts": ["Livraison offerte dès 35€", "Paiement sécurisé CB/PayPal"],
+  "nouveau": false,
+  "stock_total": 21,
+  "en_stock": true,
+  "note": {
+    "moyenne": 4.7,
+    "nombre": 7
+  },
+  "avis": [
+    {
+      "utilisateur": "Awa N.",
+      "note": 5,
+      "commentaire": "Très belle qualité, cheveux doux et brillants.",
+      "date": "2025-06-10"
+    },
+    {
+      "utilisateur": "Mamadou S.",
+      "note": 4,
+      "commentaire": "Bon rapport qualité-prix.",
+      "date": "2025-06-15"
+    }
+  ],
+  "createdAt": "2025-05-28T08:00:00.000Z",
+  "updatedAt": "2025-06-20T14:00:00.000Z"
+},
+{
+  "_id": "prod_2",
+  "name": "Tissage brésilien lisse 100% cheveux naturels remy",
+  "slug": "bundle-bresilien-lisse",
+  "images": [
+    "http://localhost:4000/images/meche-lisse/bresilien.png",
+    "http://localhost:4000/images/meche-lisse/bresilien-1.png",
+    "http://localhost:4000/images/meche-lisse/bresilien-2.png",
+    "http://localhost:4000/images/meche-lisse/bresilien-3.png",
+    "http://localhost:4000/images/meche-lisse/bresilien-4.png"
+  ],
+  "description": "Lot de 3 mèches brésiliennes lisses 100% naturelles Remy, texture douce et soyeuse.",
+  "categorie": {
+    "principale": "Mèches & Extensions",
+    "sous_categories": [
+      { "name": "Bundles", "slug": "bundles", "imageUrl": "http://localhost:4000/images/bundles.jpg" },
+      { "name": "Mèches lisses", "slug": "meches-lisses", "imageUrl": "http://localhost:4000/images/meches-lisses.png" }
+    ]
+  },
+  "tags": ["remy hair", "tissage", "brésilien", "lisse"],
+  "options_de_couleur": ["noir naturel", "chocolat"],
+  "devise": "FCFA",
+  "variants": [
+    { "longueur": "16\"", "couleur": "noir naturel", "prix": 85000, "ancien_prix": 100000, "stock": 10 },
+    { "longueur": "16\"", "couleur": "chocolat", "prix": 90000, "ancien_prix": null, "stock": 6 }
+  ],
+  "details": ["Cheveux 100% naturels Remy Hair", "Texture soyeuse"],
+  "points_forts": ["Facile à coiffer", "Durée de vie longue"],
+  "nouveau": false,
+  "stock_total": 16,
+  "en_stock": true,
+  "note": { "moyenne": 4.6, "nombre": 13 },
+  "avis": [
+    { "utilisateur": "Karim B.", "note": 5, "commentaire": "Très bonne qualité.", "date": "2025-06-14" }
+  ],
+  "createdAt": "2025-05-15T10:00:00.000Z",
+  "updatedAt": "2025-06-20T11:00:00.000Z"
+},
+{
+  "_id": "prod_3",
+  "name": "Lot 3 Mèches Kinky Curly",
+  "slug": "lot-3-meches-kinky-curly",
+  "images": [
+    "http://localhost:4000/images/kinky/cheveux-remy-lot.png",
+    "http://localhost:4000/images/kinky/cheveux-remy-lot1.png",
+    "http://localhost:4000/images/kinky/cheveux-remy-lot2.png",
+    "http://localhost:4000/images/kinky/cheveux-remy-lot3.png",
+    "http://localhost:4000/images/kinky/cheveux-remy-lot4.png"
+  ],
+  "description": "Lot de mèches kinky curly, texture afro naturelle idéale pour un volume maximal.",
+  "categorie": {
+    "principale": "Mèches & Extensions",
+    "sous_categories": [
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" }
+    ]
+  },
+  "tags": ["remy hair", "kinky curly", "naturel", "volume"],
+  "options_de_couleur": ["noir naturel"],
+  "devise": "FCFA",
+  "variants": [
+    { "longueur": "12\"", "couleur": "noir naturel", "prix": 70000, "ancien_prix": 85000, "stock": 9 },
+    { "longueur": "16\"", "couleur": "noir naturel", "prix": 95000, "ancien_prix": null, "stock": 7 }
+  ],
+  "details": ["Cheveux 100% naturels Remy Hair", "Très volumineux et doux"],
+  "points_forts": ["Texture naturelle", "Facile à coiffer"],
+  "nouveau": true,
+  "stock_total": 16,
+  "en_stock": true,
+  "note": { "moyenne": 4.7, "nombre": 14 },
+  "avis": [
+    { "utilisateur": "Nadia L.", "note": 5, "commentaire": "J’adore le volume et la texture!", "date": "2025-06-20" }
+  ],
+  "createdAt": "2025-06-01T10:00:00.000Z",
+  "updatedAt": "2025-06-22T11:00:00.000Z"
+},
+{
+  "_id": "prod_4",
+  "name": "Tissage frisé Pissy curls",
+  "slug": "Tissage-frisé-Pissy-curls",
+  "images": [
+    "http://localhost:4000/images/kinky/pissy-curl.png",
+    "http://localhost:4000/images/kinky/pissy-curl1.png",
+    "http://localhost:4000/images/kinky/pissy-curl2.png"
+  ],
+  "description": "Lot de mèches kinky curly, texture afro naturelle idéale pour un volume maximal.",
+  "categorie": {
+    "principale": "Mèches & Extensions",
+    "sous_categories": [
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" },
+      { "name": "Mèches kinky curly", "slug": "meches-kinky-curly", "imageUrl": "http://localhost:4000/images/meches-kinky-curly.png" }
+    ]
+  },
+  "tags": ["remy hair", "kinky curly", "naturel", "volume"],
+  "options_de_couleur": ["noir naturel"],
+  "devise": "FCFA",
+  "variants": [
+    { "longueur": "12\"", "couleur": "noir naturel", "prix": 70000, "ancien_prix": 85000, "stock": 9 },
+    { "longueur": "16\"", "couleur": "noir naturel", "prix": 95000, "ancien_prix": null, "stock": 7 }
+  ],
+  "details": ["Cheveux 100% naturels Remy Hair", "Très volumineux et doux"],
+  "points_forts": ["Texture naturelle", "Facile à coiffer"],
+  "nouveau": true,
+  "stock_total": 16,
+  "en_stock": true,
+  "note": { "moyenne": 4.7, "nombre": 14 },
+  "avis": [
+    { "utilisateur": "Nadia L.", "note": 5, "commentaire": "J’adore le volume et la texture!", "date": "2025-06-20" }
+  ],
+  "createdAt": "2025-06-01T10:00:00.000Z",
+  "updatedAt": "2025-06-22T11:00:00.000Z"
+}
 ]
